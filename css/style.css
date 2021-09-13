@@ -1,0 +1,49 @@
+/* Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Header  */
+.logo{
+    height: 60px;
+    line-height: 70px;
+    padding: 0 20px;
+    font-size: 30px;
+    color: rgb(41, 177, 221);
+    font-family: 'Acme', sans-serif;
+
+}
+.search{
+    background-color: rgb(41, 177, 221);
+    text-align: center;
+    color: white;
+    height: 70px;
+    line-height: 70px;
+}
+/* Main  */
+main{
+    padding: 20px;
+    background-color: lightgrey;
+    height: calc(100% - 70px);
+    overflow-y: auto;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    width: calc(100% / 5 - 20px);
+    margin: 10px;
+    text-align: center;
+}
+.icons i{
+    font-size: 30px;
+}
